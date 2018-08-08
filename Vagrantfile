@@ -13,9 +13,6 @@ puppet apply --modulepath ./modules manifests/site.pp
 SCRIPT
 
 Vagrant.configure("2") do |config|
-
-  # config.vm.box = "lnx-rhel"
-  # config.vm.box_url = "http://atf.intranet.bb.com.br/artifactory/bb-vagrant-local/lnx/rhel/lnx-rhel.json"
   
   config.vm.box = 'centos/7'
 
